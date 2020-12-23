@@ -16,7 +16,7 @@ PACKAGE_CKSUM = package_$(RELEASE_TAG)_sha256sum.txt
 PACKAGE_ASSET = $(RELEASE_TAG)_packages.tar.gz
 CITIZEN_PACK = $(CITIZEN_PACK_DIR).tar.gz
 CITIZEN_PACK_CKSUM = $(CITIZEN_PACK_DIR)_sha256sum.txt
-DOWNLOAD_URL = https://github.com/icon-project/icon-release/releases/download/$(RELEASE_TAG)
+DOWNLOAD_URL = https://github.com/leeheonseung/icon-release/releases/download/$(RELEASE_TAG)
 ICON_RC = icon_rc
 
 
