@@ -4,7 +4,7 @@ on:
       loopchain:
         description: 'loopchain tag'
         required: true
-        default: '2.7.0'
+        default: '2.8.1'
       iconrpcserver:
         description: 'iconrpcserver tag'
         required: true
@@ -16,11 +16,11 @@ on:
       rewardcalculator:
         description: 'rewardcalculator tag'
         required: true
-        default: '1.2.3'
+        default: '1.2.4'
       release_tag:
         description: 'github release tag'
         required: true
-        default: '2020.11'
+        default: '2020.12'
 jobs:
   release:
     runs-on: ubuntu-latest
