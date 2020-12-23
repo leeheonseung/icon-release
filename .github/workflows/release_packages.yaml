@@ -23,7 +23,7 @@ on:
         default: '2020.12'
 jobs:
   release:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-18.04
     # FIXME
     strategy:
       matrix:
